@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pràctica 4</title>
+</head>
+<body>
+<h1 style="color:red" align="center"> Formulari ITIC BCN </h1>
+
+<form action="envia.html">
+    <table>
+        <tr>
+            <td><label for="nom">Nom i Cognoms:</label></td>
+            <td><input type="text" id="nom" name="nom"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td><label for="quantity">Edat:</label></td>
+            <td><input type="number" id="quantity" name="quantity"></td>
+        </tr>
+    </table>
+    <h2> Quin cicle estas realitzant? </h2>
+    <input type="checkbox" id="cicle1" name="Cicle1" value="HTML">
+    <label for="Cicle1">ASIX</label><br>
+    <input type="checkbox" id="cicle2" name="Cicle1" value="HTML">
+    <label for="Cicle1">DAM</label><br>
+    <input type="checkbox" id="cicle3" name="Cicle1" value="HTML">
+    <label for="Cicle1">DAW</label><br>
+    <label for="curs">Quin es el teu curs i classe?</label>
+    <select id="curs" name="curs">
+    <option value="ASIX1A">ASIX1A</option>
+    <option value="ASIX1B">ASIX1B</option>
+    <option value="ASIX2A">ASIX2A</option>
+    <option value="ASIX2B">ASIX2B</option>
+    <option value="DAM1A">DAM1A</option>
+    <option value="DAM1B">DAM1B</option>
+    <option value="DAM2A">DAM2A</option>
+    <option value="DAM2B">DAM2B</option>
+    <option value="DAW1">DAW1</option>
+    <option value="DAW2A">DAW2A</option>
+    <option value="DAW2B">DAW2B</option>
+    </select>
+    <h2> Què t'agradaria aprendre? </h2>
+    <input type="checkbox" id="aprendre1" name="Intel.ligència artificial" value="HTML">
+    <label for="aprendre1">L'Intel.ligència artifical</label><br>
+    <input type="checkbox" id="aprendre2" name="Programació web" value="HTML">
+    <label for="aprendre2">La programació web</label><br>
+    <input type="checkbox" id="aprendre3" name="Algoritmes" value="HTML">
+    <label for="aprendre3">Els algoritmes</label><br>
+    <input type="checkbox" id="aprendre4" name="Les xarxes" value="HTML">
+    <label for="aprendre4">Les xarxes</label><br>
+<label for="altres">Tens algun suggeriment? Explica'l:</label>
+
+<textarea id="altres" name="altres" rows="4" cols="50">
+</textarea>
+
+<input type="submit" value="envia">
+</form>
+</body>
+</html>

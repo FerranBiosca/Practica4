@@ -1,0 +1,6 @@
+"#Practica-4"  init
+"#Practica-4"  add README.md
+"#Practica-4"  commit -m "first commit"
+"#Practica-4"  branch -M main
+"#Practica-4"  remote add origin https://github.com/FerranBiosca/Practica-4.git
+"#Practica-4"  push -u origin main
